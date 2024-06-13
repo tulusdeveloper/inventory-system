@@ -1,6 +1,7 @@
 import { BaggageClaim, BarChart4, Cable, ChevronLeft, Files, Home, ShoppingBag, ShoppingBasket, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import SubscriptionCard from "./SubscriptionCard";
 
 export default function Sidebar() {
   return (
@@ -43,6 +44,7 @@ export default function Sidebar() {
             <span>Documents</span>
           </Link>
         </nav>
+        <SubscriptionCard/>
       </div>
       {/* Bottom part */}
       <div className=" flex flex-col items-center">
