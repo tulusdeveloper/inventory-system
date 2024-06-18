@@ -48,7 +48,7 @@ export default function Sidebar() {
       </div>
       {/* Bottom part */}
       <div className=" flex flex-col ">
-        <div className="bg-slate-950 flex space-x-2 items-center py-3 px-2">
+        <div className="bg-slate-950 flex space-x-2 items-center justify-center py-3 px-2">
           <ChevronLeft />
         </div>
       </div>
